@@ -1,7 +1,10 @@
 import os, sys, time, random, requests, json
 from datetime import datetime
 platforms = {
-    "darwin": "MacOS"
+    "darwin": "MacOS",
+    "win32": "Windows32",
+    "win64": "Windows64",
+    "linux": "Linux",
 }
 
 
