@@ -1,4 +1,4 @@
-import os, sys, time, random, requests, json
+import os, sys, random
 from datetime import datetime
 platforms = {
     "darwin": "MacOS",
